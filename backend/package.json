@@ -1,0 +1,19 @@
+{
+  "name": "apkforge-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Backend que orquestra builds de APK via GitHub Actions",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.10",
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
+
